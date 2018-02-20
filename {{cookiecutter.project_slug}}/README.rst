@@ -1,4 +1,4 @@
-{% set is_open_source = cookiecutter.open_source_license != 'Not open source' -%}
+﻿{% set is_open_source = cookiecutter.open_source_license != 'Not open source' -%}
 {% for _ in cookiecutter.project_name %}={% endfor %}
 {{ cookiecutter.project_name }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
@@ -34,10 +34,17 @@ Features
 
 * TODO
 
+Installing the plug-in
+--------
+
+The instruction for installing the plug-in can be found at the following site:
+
+<https://en.wikibooks.org/wiki/GIMP/Installing_Plugins>
+
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `giacomomarchioro/cookiecutter-minimalpygimpplugin`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`giacomomarchioro/cookiecutter-minimalpygimpplugin`: https://github.com/audreyr/cookiecutter-pypackage
