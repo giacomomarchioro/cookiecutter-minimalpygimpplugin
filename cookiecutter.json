@@ -7,7 +7,7 @@
   "project_short_description": "This my frist Gimp Plugin.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
-  "imagetypes": ["*","RGB","INDEXED","RGB*", "GRAY*", "RGB*, GRAY*"]
+  "imagetypes": ["*","RGB","INDEXED","RGB*", "GRAY*", "RGB*, GRAY*"],
   "use_pytest": "n",
   "use_pypi_deployment_with_travis": "n",
   "add_pyup_badge": "n",
