@@ -9,7 +9,7 @@ def {{ cookiecutter.project_slug }}(img,drw):
     layers = img.layers
  
 register(
-        "{{ cookiecutter.project_name }}",
+        "{{ cookiecutter.project_slug }}",
         "{{ cookiecutter.project_short_description }}",
         "{{ cookiecutter.project_short_description }}",
         "{{ cookiecutter.full_name }}",
