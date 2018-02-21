@@ -1,6 +1,6 @@
 #!/usr/bin/python
 '''
-{{project_short_description}}
+{{cookiecutter.project_short_description}}
 '''
 from gimpfu import *
  
