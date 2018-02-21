@@ -4,8 +4,9 @@
 '''
 from gimpfu import *
  
-def {{ cookiecutter.project_name }}(timg, tdrawable):
-    print "Hello, world!"
+def {{ cookiecutter.project_slug }}(img,drw):
+    img=gimp.image_list()[0]
+    layers = img.layers
  
 register(
         "{{ cookiecutter.project_name }}",
@@ -14,10 +15,9 @@ register(
         "{{ cookiecutter.full_name }}",
         "{{ cookiecutter.full_name }}",
         "2010",
-        "<Image>/Image/Resize to max...",
+        "<Image>/Plugins/{{ cookiecutter.project_slug }}",
         "{{ cookiecutter.image_types }}",
         [],
         [],
-        {{ cookiecutter.project_name }})
- 
+        {{ cookiecutter.project_slug }})
 main()
